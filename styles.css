@@ -1,0 +1,42 @@
+a,
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.cities_container_link {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.cities_container_link:hover {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.cities__titles {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.cities__titles:hover {
+  font-size: 44px;
+}
+
+.cities_description {
+  font-size: 18px;
+}
+
+.home__place__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1400px;
+  padding: 8px;
+}
+
+a > h1 {
+  cursor: pointer;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Programção WEB</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: rgb(233, 228, 229)">
+    <header style="margin-bottom: 20px">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background: gray"
+      >
+        <a class="navbar-brand" href="#" style="color: black">Meu Site</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color: black">
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="cities/Gramado/gramado.html"
+                style="color: black"
+                >Gramado</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="cities/NovaPetropolis/novaPetropolis.html"
+                style="color: black"
+                >Nova Petrópolis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="cities/Garibaldi/garibaldi.html"
+                style="color: black"
+                >Garibaldi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="cities/BentoGoncalves/bentoGoncalves.html"
+                style="color: black"
+                >Bento Gonçalves</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" style="height: 30em; width: 100%">
+        <div
+          class="carousel-item active h-100"
+          style="
+            background-image: url(assets/imagem1.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
+        ></div>
+        <div
+          class="carousel-item h-100"
+          style="
+            background-image: url(assets/imagem2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
+        ></div>
+        <div
+          class="carousel-item h-100"
+          style="
+            background-image: url(assets/imagem3.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
+        ></div>
+      </div>
+
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 30px;
+        padding: 0 20px;
+      "
+    >
+      <section class="home__place__card">
+        <article style="max-width: 1000px">
+          <a href="cities/Gramado/gramado.html" style="text-decoration: none"
+            ><h1 class="cities__titles">Gramado</h1></a
+          >
+          <p class="cities_description">
+            A gastronomia de Gramado é conhecida por ser diversa e saborosa,
+            oferecendo opções para todos os gostos e paladares. Entre os lugares
+            mais famosos da região, destaca-se o Hard Rock Cafe, que serve
+            deliciosos hambúrgueres e pratos típicos da culinária americana, em
+            um ambiente descontraído e com decoração temática. Outra opção
+            imperdível é a Florybal, uma chocolateria que oferece uma grande
+            variedade de chocolates artesanais, trufas e outras delícias. Já o
+            Hector é um restaurante sofisticado e requintado, que serve pratos
+            elaborados e criativos, com influências da cozinha internacional. Em
+            resumo, a gastronomia de Gramado é uma atração à parte, capaz de
+            satisfazer os mais exigentes paladares.
+          </p>
+        </article>
+        <img src="assets/hardrockfood.jpg" width="250px" height="250px" />
+      </section>
+
+      <section class="home__place__card">
+        <article style="max-width: 1000px">
+          <a
+            href="cities/Garibaldi/garibaldi.html"
+            style="text-decoration: none"
+            ><h1 class="cities__titles">Garibaldi</h1></a
+          >
+          <p class="cities_description">
+            A gastronomia de Garibaldi é marcada pela rica cultura italiana, que
+            se reflete em seus pratos e sabores típicos. Entre os lugares mais
+            renomados da cidade, destaca-se o Santa Gula, um restaurante
+            aconchegante e elegante, que oferece uma culinária contemporânea e
+            sofisticada, com ingredientes frescos e de alta qualidade. A
+            vinícola Garibaldi é outro ponto forte da gastronomia local, onde é
+            possível degustar vinhos premiados e apreciar a bela paisagem das
+            vinhas. Já a Della Colombina é uma doceria tradicional que oferece
+            uma grande variedade de doces, bolos e sobremesas típicas da
+            culinária italiana, com sabores que vão desde o clássico tiramisu
+            até a famosa panacota. Em resumo, a gastronomia de Garibaldi é uma
+            verdadeira experiência para os amantes da boa mesa, que podem
+            desfrutar de pratos deliciosos e vinhos de alta qualidade em um
+            ambiente acolhedor e charmoso.
+          </p>
+        </article>
+        <img src="assets/santaGula.jpg" width="250px" height="250px" />
+      </section>
+
+      <section class="home__place__card">
+        <article style="max-width: 1000px">
+          <a
+            href="cities//BentoGoncalves/bentoGoncalves.html"
+            style="text-decoration: none"
+            ><h1 class="cities__titles">Bento Gonçalves</h1></a
+          >
+          <p class="cities_description">
+            A gastronomia de Bento Gonçalves é uma verdadeira festa para os
+            sentidos, com opções que vão desde a cozinha italiana até a típica
+            culinária gaúcha. O Don Perignon é um dos restaurantes mais famosos
+            da região, especializado em pratos da culinária internacional, com
+            destaque para os frutos do mar. Já a Cuca e Marmellata é uma
+            cafeteria que serve deliciosos cafés especiais, bolos e pães
+            artesanais, além de oferecer uma grande variedade de geleias e
+            compotas. Outro lugar imperdível é a Giordani Gastronomia, um
+            restaurante elegante e sofisticado que oferece uma culinária
+            refinada, com pratos elaborados e criativos. Para quem gosta de
+            vinhos, a região também é famosa por suas vinícolas e degustações,
+            que combinam perfeitamente com a gastronomia local. Em resumo, a
+            gastronomia de Bento Gonçalves é uma verdadeira celebração da boa
+            comida e dos sabores regionais, com opções para todos os gostos e
+            paladares.
+          </p>
+        </article>
+        <img src="assets/donPerignon.jpg" width="250px" height="250px" />
+      </section>
+
+      <section class="home__place__card">
+        <article style="max-width: 1000px">
+          <a
+            href="cities/NovaPetropolis/novaPetropolis.html"
+            style="text-decoration: none"
+            ><h1 class="cities__titles">Nova Petrópolis</h1></a
+          >
+          <p class="cities_description">
+            A gastronomia de Nova Petrópolis é uma verdadeira mistura de
+            sabores, com influências da culinária alemã, italiana e gaúcha.
+            Entre os lugares mais conhecidos da cidade, destaca-se o Zandam, um
+            restaurante acolhedor que oferece pratos típicos da culinária alemã,
+            como salsichas, chucrute e schnitzel. O Deck Restaurante, por sua
+            vez, é um local charmoso que serve uma culinária sofisticada, com
+            pratos elaborados com ingredientes frescos e selecionados. Já o
+            Mukli é um café e empório que oferece opções de lanches, pães,
+            tortas e outras delícias, com um ambiente descontraído e
+            aconchegante. Além disso, a cidade é famosa pela produção de
+            chocolates artesanais e pela culinária gaúcha, com seus famosos
+            churrascos e pratos à base de carne. Em resumo, a gastronomia de
+            Nova Petrópolis é uma mistura de tradição e modernidade, capaz de
+            agradar aos mais diversos paladares.
+          </p>
+        </article>
+        <img src="assets/deckRestaurante.png" width="250px" height="250px" />
+      </section>
+    </div>
+
+    <footer
+      class="bg-dark text-white text-center py-3"
+      style="margin-top: 40px"
+    >
+      <div class="container">
+        <p>&copy; Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.restaurants__titles {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.restaurants__titles:hover {
+  font-size: 32px;
+}
+
+.custom__image {
+  width: 600px;
+}
+
+.custom__restaurant__image {
+  width: 200px;
+}
+
+.restaurant__container {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 635px) {
+  .custom__image {
+    max-width: 350px;
+  }
+
+  .custom__restaurant__image {
+    width: 100%;
+  }
+
+  .restaurant__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
