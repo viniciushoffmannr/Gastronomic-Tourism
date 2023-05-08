@@ -4,9 +4,293 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cuca e Marmellata</title>
+    <title>Cuca e Marmellat</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1 style="text-align: center">Cuca e Marmellata</h1>
+  <body style="background-color: rgb(233, 228, 229)">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background: gray"
+      >
+        <a class="navbar-brand" href="#" style="color: black">Meu Site</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="../../../index.html"
+                style="color: black"
+              >
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/Gramado/gramado.html"
+                style="color: black"
+                >Gramado</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/NovaPetropolis/novaPetropolis.html"
+                style="color: black"
+                >Nova Petrópolis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/Garibaldi/garibaldi.html"
+                style="color: black"
+                >Garibaldi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/BentoGoncalves/bentoGoncalves.html"
+                style="color: black"
+                >Bento Gonçalves</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0 20px;
+        margin-top: 30px;
+      "
+    >
+      <h1 class="restaurant__title">CUCA E MARMELLAT</h1>
+
+      <img src="../../../assets/cucaEmar.jpg" class="custom__image" />
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+      "
+    >
+      <article style="max-width: 800px">
+        <p class="restaurant__introduction">
+          É um restaurante em Bento Gonçalves que oferece uma experiência
+          autêntica da culinária típica da região. O cardápio é composto por
+          pratos tradicionais como polenta, galeto, massa caseira e sobremesas
+          como sagu e cuca de uva, acompanhados por uma excelente seleção de
+          vinhos locais. O ambiente é acolhedor e rústico, com decoração que
+          remete às tradições da Serra Gaúcha. É uma excelente opção para quem
+          quer provar a culinária local em um ambiente familiar e descontraído.
+        </p>
+      </article>
+    </div>
+
+    <div class="container" style="margin-top: 40px; padding: 0 20px">
+      <div class="row">
+        <div class="col-sm-4" style="margin-bottom: 10px">
+          <div class="card">
+            <img
+              src="../../../assets/vinhos.jpg"
+              class="card-img-top h-100 custom__card__image"
+              alt="Imagem 1"
+            />
+            <div class="card-body custom__card">
+              <h5 class="card-title card__title">Vinhos</h5>
+              <p class="card-text">
+                A carta de vinhos é cuidadosamente selecionada e apresenta uma
+                ampla variedade de rótulos, desde os mais tradicionais até os
+                mais modernos. É possível degustar vinhos tintos, brancos e
+                espumantes, além de experimentar vinhos produzidos em pequenas
+                vinícolas familiares, que são verdadeiras joias da região.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 10px">
+          <div class="card">
+            <img
+              src="../../../assets/comidaCuca.jpg"
+              class="card-img-top h-100 custom__card__image"
+              alt="Imagem 1"
+            />
+            <div class="card-body custom__card">
+              <h5 class="card-title card__title">Comidas</h5>
+              <p class="card-text">
+                O cardápio é composto por pratos tradicionais da culinária
+                italiana, alemã e gaúcha, com ingredientes frescos e
+                selecionados, e preparados de maneira artesanal. Entre as
+                especialidades do restaurante estão o famoso galeto al primo
+                canto, o tradicional risoto de funghi e a saborosa polenta
+                frita. Além disso, o restaurante oferece opções vegetarianas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img
+              src="../../../assets/queijosCuca.jpg"
+              class="card-img-top h-100 custom__card__image"
+              alt="Imagem 3"
+            />
+            <div class="card-body custom__card" style="height: 296px">
+              <h5 class="card-title card__title">Queijos</h5>
+              <p class="card-text">
+                O cardápio oferece uma seleção de queijos de diferentes tipos,
+                texturas e sabores, todos produzidos com leite fresco e sem
+                adição de conservantes ou corantes artificiais. Entre os queijos
+                disponíveis no restaurante, destacam-se o queijo colonial, o
+                queijo serrano e o queijo gorgonzola, que podem ser degustados
+                em tábuas de queijos acompanhadas de pães caseiros.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 20px;
+      "
+    >
+      <section style="max-width: 800px">
+        <h3 class="foods__title">
+          Entrando em detalhes sobre os chocolates e experiências gastronômicas
+        </h3>
+
+        <article
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <div>
+            <h4 class="foods__title">Galeto Al Primo</h4>
+
+            <p>
+              Trata-se de um galeto (frango pequeno) assado na brasa, temperado
+              com sal grosso e acompanhado de polenta frita e salada verde. O
+              termo "al primo canto" faz referência ao primeiro canto do galo ao
+              amanhecer, momento em que o galeto é abatido para garantir sua
+              maciez e sabor. A preparação é feita de forma artesanal,
+              respeitando as tradições da culinária italiana, e o resultado é
+              uma carne suculenta e saborosa, com uma crosta crocante e dourada.
+            </p>
+          </div>
+
+          <img src="../../../assets/galetoCuca.jpg" height="300px" />
+        </article>
+
+        <article
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <div>
+            <h4 style="font-family: 'Oswald'; margin-top: 25px">
+              Risoto de funghi
+            </h4>
+
+            <p>
+              É um prato feito à base de arroz arbóreo, um tipo de arroz de grão
+              curto e arredondado, que é cozido em um caldo de legumes ou de
+              carne e misturado com cogumelos funghi porcini. O arroz é cozido
+              lentamente em fogo baixo e vai absorvendo o caldo aos poucos,
+              criando uma textura cremosa e aveludada. O cogumelo funghi porcini
+              é um dos ingredientes principais e confere um sabor intenso e
+              terroso ao prato.
+            </p>
+          </div>
+
+          <img src="../../../assets/RISOTOCUCA.jpeg" height="300px" />
+        </article>
+
+        <h4 style="font-family: 'Oswald'; margin-top: 25px">E muito mais...</h4>
+        <h3
+          style="font-family: 'Oswald'; margin-top: 25px; margin-bottom: 25px"
+        >
+          Veja também uma avaliação que selecionamos para você ter maior
+          conhecimento sobre o local
+        </h3>
+      </section>
+
+      <iframe
+        class="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8Hjve7eiEJY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer
+      class="bg-dark text-white text-center py-3"
+      style="margin-top: 40px"
+    >
+      <div class="container">
+        <p>&copy; Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

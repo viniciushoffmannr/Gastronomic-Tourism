@@ -1,0 +1,47 @@
+.restaurants__title {
+  font-family: 'Oswald', sans-serif;
+  padding-top: 30px;
+}
+
+.restaurant__introduction {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.custom__card {
+  background-color: rgb(193, 192, 209);
+}
+
+.card__title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.foods__title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.custom__image {
+  width: 600px;
+}
+
+.custom__card__image {
+  min-height: 256px;
+  max-height: 256px;
+}
+
+@media screen and (max-width: 635px) {
+  .custom__image {
+    max-width: 350px;
+  }
+}
+
+.video {
+  padding: 20px;
+  width: 600px;
+}
+
+@media screen and (max-width: 635px) {
+  .video {
+    max-width: 350px;
+  }
+}

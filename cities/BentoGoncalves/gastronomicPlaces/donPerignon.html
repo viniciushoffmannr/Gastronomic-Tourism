@@ -5,8 +5,300 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Don Perignon</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1 style="text-align: center">Don Perignon</h1>
+  <body style="background-color: rgb(233, 228, 229)">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background: gray"
+      >
+        <a class="navbar-brand" href="#" style="color: black">Meu Site</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="../../../index.html"
+                style="color: black"
+              >
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/Gramado/gramado.html"
+                style="color: black"
+                >Gramado</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/NovaPetropolis/novaPetropolis.html"
+                style="color: black"
+                >Nova Petrópolis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/Garibaldi/garibaldi.html"
+                style="color: black"
+                >Garibaldi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../../cities/BentoGoncalves/bentoGoncalves.html"
+                style="color: black"
+                >Bento Gonçalves</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0 20px;
+        margin-top: 30px;
+      "
+    >
+      <h1 class="restaurant__title">Don Perignon</h1>
+
+      <img src="../../../assets/donperi.jpg" class="custom__image" />
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+      "
+    >
+      <article style="max-width: 800px">
+        <p class="restaurant__introduction">
+          Don Perignon é um restaurante em Bento Gonçalves que oferece uma
+          experiência gastronômica sofisticada e requintada. O cardápio é
+          composto por pratos da cozinha contemporânea e internacional, com uma
+          forte influência da culinária italiana. Os pratos são elaborados com
+          ingredientes frescos e selecionados, e são acompanhados por uma
+          extensa carta de vinhos, com opções nacionais e internacionais. O
+          ambiente é elegante e refinado, com decoração moderna e sofisticada, e
+          uma vista panorâmica para os vinhedos da região. É uma excelente opção
+          para quem busca uma experiência gastronômica exclusiva em um ambiente
+          requintado e aconchegante.
+        </p>
+      </article>
+    </div>
+
+    <div class="container" style="margin-top: 40px; padding: 0 20px">
+      <div class="row">
+        <div class="col-sm-4" style="margin-bottom: 10px">
+          <div class="card">
+            <img
+              src="../../../assets/vinhos.jpg"
+              class="card-img-top h-100 custom__card__image"
+              alt="Imagem 1"
+            />
+            <div class="card-body custom__card">
+              <h5 class="card-title card__title">Vinhos</h5>
+              <p class="card-text">
+                Entre as opções de vinhos tintos, estão os clássicos Merlot,
+                Cabernet Sauvignon, Tannat e Pinot Noir, além de blends como o
+                Quinta do Seival Castas Portuguesas e o Altos Las Hormigas
+                Malbec. Já os vinhos brancos incluem o Chardonnay, Sauvignon
+                Blanc, Riesling e Moscato, além de espumantes como o Chandon
+                Brut e o Casa Valduga 130 Brut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 10px">
+          <div class="card">
+            <img
+              src="../../../assets/donCOmida.jpg"
+              class="card-img-top h-100 custom__card__image"
+              alt="Imagem 1"
+            />
+            <div class="card-body custom__card">
+              <h5 class="card-title card__title">Comidas</h5>
+              <p class="card-text">
+                O menu apresenta opções de entradas como o Carpaccio de carne, o
+                Polvo grelhado e o Tartare de salmão. Para prato principal,
+                destacam-se o Cordeiro patagônico, o Filé mignon com risoto de
+                cogumelos e o Ravióli de queijo e pera ao molho de manteiga e
+                sálvia. Além disso, há opções de frutos do mar como o Camarão à
+                provençal e o Gnocchi de batata doce.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img
+              src="../../../assets/choco.jpg"
+              class="card-img-top h-100 custom__card__image"
+              alt="Imagem 3"
+            />
+            <div class="card-body custom__card" style="height: 296px">
+              <h5 class="card-title card__title">Chocolates</h5>
+              <p class="card-text">
+                Entre as opções de chocolates presentes no restaurante,
+                destacam-se os feitos com cacau de alta qualidade e recheios que
+                exploram sabores locais. Há opções como o chocolate amargo com
+                recheio de bergamota, fruta típica da região, o chocolate ao
+                leite com recheio de nozes e o chocolate branco com recheio de
+                uva passa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 20px;
+      "
+    >
+      <section style="max-width: 800px">
+        <h3 class="foods__title">
+          Entrando em detalhes sobre os chocolates e experiências gastronômicas
+        </h3>
+
+        <article
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <div>
+            <h4 class="foods__title">Polvo Grelhado</h4>
+
+            <p>
+              O polvo grelhado é um dos pratos oferecidos pelo Don Perignon, um
+              restaurante em Bento Gonçalves que oferece uma gastronomia
+              contemporânea com ingredientes locais. O prato consiste em um
+              polvo fresco grelhado na chapa, servido com legumes cozidos, como
+              batata e cenoura, e finalizado com um molho de ervas frescas. O
+              polvo é preparado de forma a manter sua textura macia e suculenta,
+              enquanto o molho de ervas complementa o sabor do fruto do mar. O
+              prato é uma opção leve e saborosa, perfeita para quem deseja
+              experimentar os sabores da culinária regional em um ambiente
+              sofisticado.
+            </p>
+          </div>
+
+          <img src="../../../assets/polvo.jpg" height="300px" />
+        </article>
+
+        <article
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <div>
+            <h4 style="font-family: 'Oswald'; margin-top: 25px">
+              Risoto de funghi
+            </h4>
+
+            <p>
+              O filé mignon com risoto de cogumelos é um prato clássico e
+              saboroso oferecido pelo restaurante Don Perignon em Bento
+              Gonçalves. O filé mignon é cuidadosamente preparado com um ponto
+              perfeito de cozimento, selado para manter a suculência da carne. O
+              risoto de cogumelos, por sua vez, é um acompanhamento que combina
+              perfeitamente com o sabor delicado da carne. O risoto é preparado
+              com arroz arbóreo, cogumelos frescos e um molho de queijo
+              parmesão, resultando em uma textura cremosa e um sabor incrível.
+            </p>
+          </div>
+
+          <img src="../../../assets/risoto.jpg" height="300px" />
+        </article>
+
+        <h4 style="font-family: 'Oswald'; margin-top: 25px">E muito mais...</h4>
+        <h3
+          style="font-family: 'Oswald'; margin-top: 25px; margin-bottom: 25px"
+        >
+          Veja também uma avaliação que selecionamos para você ter maior
+          conhecimento sobre o local
+        </h3>
+      </section>
+
+      <iframe
+        class="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8Hjve7eiEJY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer
+      class="bg-dark text-white text-center py-3"
+      style="margin-top: 40px"
+    >
+      <div class="container">
+        <p>&copy; Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

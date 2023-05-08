@@ -24,6 +24,11 @@
   width: 600px;
 }
 
+.custom__card__image {
+  min-height: 256px;
+  max-height: 256px;
+}
+
 @media screen and (max-width: 635px) {
   .custom__image {
     max-width: 350px;
