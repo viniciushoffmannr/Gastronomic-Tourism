@@ -23,12 +23,17 @@
     />
   </head>
   <body style="background-color: rgb(233, 228, 229)">
-    <header>
+    <header style="margin-bottom: 20px">
       <nav
         class="navbar navbar-expand-lg navbar-light"
-        style="background: gray"
+        style="background: #343a40"
       >
-        <a class="navbar-brand" href="#" style="color: black">Meu Site</a>
+        <a
+          class="navbar-brand"
+          href="#"
+          style="color: rgba(230, 230, 230, 0.914)"
+          >Meu Site</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -46,7 +51,7 @@
               <a
                 class="nav-link"
                 href="../../../index.html"
-                style="color: black"
+                style="color: rgba(230, 230, 230, 0.914)"
               >
                 Home <span class="sr-only">(current)</span>
               </a>
@@ -54,32 +59,32 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/Gramado/gramado.html"
-                style="color: black"
+                href="../../Gramado/gramado.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Gramado</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/NovaPetropolis/novaPetropolis.html"
-                style="color: black"
+                href="../../NovaPetropolis/novaPetropolis.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Nova Petrópolis</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/Garibaldi/garibaldi.html"
-                style="color: black"
+                href="../../Garibaldi/garibaldi.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Garibaldi</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/BentoGoncalves/bentoGoncalves.html"
-                style="color: black"
+                href="../../BentoGoncalves/bentoGoncalves.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Bento Gonçalves</a
               >
             </li>
@@ -88,17 +93,7 @@
       </nav>
     </header>
 
-    <div
-      style="
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 0 20px;
-        margin-top: 30px;
-      "
-    >
+    <div class="main_container">
       <h1 class="restaurant__title">FLORYBAL</h1>
 
       <img
@@ -107,16 +102,7 @@
       />
     </div>
 
-    <div
-      style="
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-      "
-    >
+    <div class="article__container">
       <article style="max-width: 800px">
         <p class="restaurant__introduction">
           A Florybal é uma empresa de chocolates artesanais localizada na cidade
@@ -129,9 +115,9 @@
       </article>
     </div>
 
-    <div class="container" style="margin-top: 40px; padding: 0 20px">
-      <div class="row">
-        <div class="col-sm-4" style="margin-bottom: 10px">
+    <div class="cards__container" style="margin-top: 40px; padding: 0 20px">
+      <div class="custom__card__container">
+        <div style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/parque-florybal.jfif "
@@ -151,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4" style="margin-bottom: 10px">
+        <div style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/miniatura.jfif"
@@ -159,7 +145,7 @@
               alt="Imagem 1"
             />
             <div class="card-body custom__card">
-              <h5 class="card-title card__title">Parque de diversão</h5>
+              <h5 class="card-title card__title">Lojas Temáticas</h5>
               <p class="card-text">
                 A Florybal, empresa de chocolates artesanais de Gramado, na
                 Serra Gaúcha, possui diversas lojas temáticas na região. Cada
@@ -171,14 +157,14 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div>
           <div class="card">
             <img
               src="../../../assets/chocFlorybal.jpg"
               class="card-img-top h-100 custom__card__image"
               alt="Imagem 3"
             />
-            <div class="card-body custom__card" style="height: 296px">
+            <div class="card-body custom__card">
               <h5 class="card-title card__title">Chocolates</h5>
               <p class="card-text">
                 A empresa utiliza ingredientes selecionados e técnicas
@@ -194,30 +180,13 @@
       </div>
     </div>
 
-    <div
-      style="
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        padding: 0 20px;
-      "
-    >
+    <div class="section__container">
       <section style="max-width: 800px">
         <h3 class="foods__title">
           Entrando em detalhes sobre os chocolates e experiências gastronômicas
         </h3>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 class="foods__title">ChocoFlor</h4>
 
@@ -230,17 +199,10 @@
             </p>
           </div>
 
-          <img src="../../../assets/chocFlor.jpeg" height="300px" />
+          <img src="../../../assets/chocFlor.jpeg" class="article_icon_image" />
         </article>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 style="font-family: 'Oswald'; margin-top: 25px">
               Trufa de Pimenta
@@ -257,18 +219,11 @@
 
           <img
             src="https://assets.betalabs.net/fit-in/600x600/filters:fill(white)/production/florybal/item-images/16035ce7a08d3bcffcbc81b71fecba86.png"
-            height="300px"
+            class="article_icon_image"
           />
         </article>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 style="font-family: 'Oswald'; margin-top: 25px">
               Tabletes de Chocolate 70% cacau
@@ -284,7 +239,7 @@
 
           <img
             src="https://assets.betalabs.net/fit-in/600x600/filters:fill(white)/production/florybal/item-images/8b8c7d5fd853c87f54ea2e7b88723527.jpeg"
-            height="300px"
+            class="article_icon_image"
           />
         </article>
 

@@ -23,12 +23,17 @@
     />
   </head>
   <body style="background-color: rgb(233, 228, 229)">
-    <header>
+    <header style="margin-bottom: 20px">
       <nav
         class="navbar navbar-expand-lg navbar-light"
-        style="background: gray"
+        style="background: #343a40"
       >
-        <a class="navbar-brand" href="#" style="color: black">Meu Site</a>
+        <a
+          class="navbar-brand"
+          href="#"
+          style="color: rgba(230, 230, 230, 0.914)"
+          >Meu Site</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -46,7 +51,7 @@
               <a
                 class="nav-link"
                 href="../../../index.html"
-                style="color: black"
+                style="color: rgba(230, 230, 230, 0.914)"
               >
                 Home <span class="sr-only">(current)</span>
               </a>
@@ -54,32 +59,32 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/Gramado/gramado.html"
-                style="color: black"
+                href="../../Gramado/gramado.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Gramado</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/NovaPetropolis/novaPetropolis.html"
-                style="color: black"
+                href="../../NovaPetropolis/novaPetropolis.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Nova Petrópolis</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/Garibaldi/garibaldi.html"
-                style="color: black"
+                href="../../Garibaldi/garibaldi.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Garibaldi</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/BentoGoncalves/bentoGoncalves.html"
-                style="color: black"
+                href="../../BentoGoncalves/bentoGoncalves.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Bento Gonçalves</a
               >
             </li>
@@ -88,32 +93,13 @@
       </nav>
     </header>
 
-    <div
-      style="
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 0 20px;
-        margin-top: 30px;
-      "
-    >
+    <div class="main_container">
       <h1 class="restaurant__title">HECTOR PIZZARIA</h1>
 
       <img src="../../../assets/hectorPizzaria.jpg" class="custom__image" />
     </div>
 
-    <div
-      style="
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-      "
-    >
+    <div class="article__container">
       <article style="max-width: 800px">
         <p class="restaurant__introduction">
           Hector Pizzaria é um estabelecimento gastronômico localizado em
@@ -127,9 +113,9 @@
       </article>
     </div>
 
-    <div class="container" style="margin-top: 40px; padding: 0 20px">
-      <div class="row">
-        <div class="col-sm-4" style="margin-bottom: 10px">
+    <div class="cards__container" style="margin-top: 40px; padding: 0 20px">
+      <div class="custom__card__container">
+        <div style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/hectorDrink.jpg"
@@ -148,14 +134,14 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4" style="margin-bottom: 10px">
+        <div style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/hamburguerHector.jpg"
               class="card-img-top h-100 custom__card__image"
               alt="Imagem 2"
             />
-            <div class="card-body custom__card" style="height: 268px">
+            <div class="card-body custom__card">
               <h5 class="card-title card__title">Hambúrgueres</h5>
               <p class="card-text">
                 Além das pizzas artesanais deliciosas, a Pizzaria Hector, em
@@ -167,7 +153,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div>
           <div class="card">
             <img
               src="../../../assets/pizzasHector.jpg"
@@ -189,28 +175,11 @@
       </div>
     </div>
 
-    <div
-      style="
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        padding: 0 20px;
-      "
-    >
+    <div class="section__container">
       <section style="max-width: 800px">
         <h3 class="foods__title">Entrando em detalhes sobre a gastronomia</h3>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 class="foods__title">Cheesburguer</h4>
 
@@ -225,17 +194,13 @@
             </p>
           </div>
 
-          <img src="../../../assets/hamburguer.jpg" height="300px" />
+          <img
+            src="../../../assets/hamburguer.jpg"
+            class="article_icon_image"
+          />
         </article>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 style="font-family: 'Oswald'; margin-top: 25px">
               Pizza de Queijo
@@ -256,7 +221,10 @@
             </p>
           </div>
 
-          <img src="../../../assets/pizzaQueijo.jpg" height="300px" />
+          <img
+            src="../../../assets/pizzaQueijo.jpg"
+            class="article_icon_image"
+          />
         </article>
         <h4 style="font-family: 'Oswald'; margin-top: 25px">E muito mais...</h4>
         <h3

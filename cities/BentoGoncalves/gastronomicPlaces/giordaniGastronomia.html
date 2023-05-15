@@ -23,12 +23,17 @@
     />
   </head>
   <body style="background-color: rgb(233, 228, 229)">
-    <header>
+    <header style="margin-bottom: 20px">
       <nav
         class="navbar navbar-expand-lg navbar-light"
-        style="background: gray"
+        style="background: #343a40"
       >
-        <a class="navbar-brand" href="#" style="color: black">Meu Site</a>
+        <a
+          class="navbar-brand"
+          href="#"
+          style="color: rgba(230, 230, 230, 0.914)"
+          >Meu Site</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -46,7 +51,7 @@
               <a
                 class="nav-link"
                 href="../../../index.html"
-                style="color: black"
+                style="color: rgba(230, 230, 230, 0.914)"
               >
                 Home <span class="sr-only">(current)</span>
               </a>
@@ -54,32 +59,32 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/Gramado/gramado.html"
-                style="color: black"
+                href="../../Gramado/gramado.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Gramado</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/NovaPetropolis/novaPetropolis.html"
-                style="color: black"
+                href="../../NovaPetropolis/novaPetropolis.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Nova Petrópolis</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/Garibaldi/garibaldi.html"
-                style="color: black"
+                href="../../Garibaldi/garibaldi.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Garibaldi</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="../../../cities/BentoGoncalves/bentoGoncalves.html"
-                style="color: black"
+                href="../../BentoGoncalves/bentoGoncalves.html"
+                style="color: rgba(230, 230, 230, 0.914)"
                 >Bento Gonçalves</a
               >
             </li>
@@ -88,32 +93,13 @@
       </nav>
     </header>
 
-    <div
-      style="
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 0 20px;
-        margin-top: 30px;
-      "
-    >
+    <div class="main_container">
       <h1 class="restaurant__title">Giordani Gastronomia</h1>
 
       <img src="../../../assets/giordaniGastro.jpg" class="custom__image" />
     </div>
 
-    <div
-      style="
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-      "
-    >
+    <div class="article__container">
       <article style="max-width: 800px">
         <p class="restaurant__introduction">
           Giordani Gastronomia é um restaurante em Bento Gonçalves que oferece
@@ -129,9 +115,9 @@
       </article>
     </div>
 
-    <div class="container" style="margin-top: 40px; padding: 0 20px">
-      <div class="row">
-        <div class="col-sm-4" style="margin-bottom: 10px">
+    <div class="cards__container" style="margin-top: 40px; padding: 0 20px">
+      <div class="custom__card__container">
+        <div class="card__icon" style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/vinhos.jpg"
@@ -151,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4" style="margin-bottom: 10px">
+        <div class="card__icon" style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/giordani-gastronomia3.jpg"
@@ -171,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="card__icon" style="margin-bottom: 10px">
           <div class="card">
             <img
               src="../../../assets/pudim.jpg"
@@ -190,30 +176,13 @@
       </div>
     </div>
 
-    <div
-      style="
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        padding: 0 20px;
-      "
-    >
+    <div class="section__container">
       <section style="max-width: 800px">
         <h3 class="foods__title">
           Entrando em detalhes sobre os chocolates e experiências gastronômicas
         </h3>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 class="foods__title">Nhoque de batata com ragu de ossobuco</h4>
 
@@ -233,18 +202,11 @@
 
           <img
             src="../../../assets/Nhoque-batata-doce-ragu-ossobuco-Baixa-8.jpg"
-            height="300px"
+            class="article_icon_image"
           />
         </article>
 
-        <article
-          style="
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
+        <article class="item__article">
           <div>
             <h4 style="font-family: 'Oswald'; margin-top: 25px">
               Lasanha à bolonhesa
@@ -267,7 +229,7 @@
 
           <img
             src="../../../assets/Lasanha-Bolonhesa-20160824170559.jpg"
-            height="300px"
+            class="article_icon_image"
           />
         </article>
 
